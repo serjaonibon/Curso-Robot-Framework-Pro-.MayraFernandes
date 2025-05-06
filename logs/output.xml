@@ -1,122 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-01T14:45:27.621373" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-01T15:25:56.439902" rpa="false" schemaversion="5">
 <suite id="s1" name="Exercicio De Fixacao" source="C:\CursoUdemy\RobotFramework\WebTesting\exercicio_de_fixacao.robot">
 <test id="s1-t1" name="Caso de Teste 02 - Remover Produto do Carrinho" line="21">
 <kw name="Acessar a home page do site Amazon.com.br" owner="exercicio_de_fixacao_resources">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:27.968059" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com.br/'.</msg>
+<msg time="2025-05-01T15:25:56.868861" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com.br/'.</msg>
 <arg>https://www.amazon.com.br/</arg>
 <arg>browser=chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-05-01T14:45:27.967762" elapsed="2.887451"/>
+<status status="PASS" start="2025-05-01T15:25:56.868520" elapsed="2.680896"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-01T14:45:30.855900" elapsed="0.034467"/>
+<status status="PASS" start="2025-05-01T15:25:59.549939" elapsed="0.676703"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-01T14:45:45.891442" level="INFO">Slept 15 seconds.</msg>
+<msg time="2025-05-01T15:26:15.228638" level="INFO">Slept 15 seconds.</msg>
 <arg>15</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-01T14:45:30.890773" elapsed="15.000928"/>
+<status status="PASS" start="2025-05-01T15:26:00.227230" elapsed="15.001711"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:27.966736" elapsed="17.925233"/>
+<status status="PASS" start="2025-05-01T15:25:56.867425" elapsed="18.361798"/>
 </kw>
 <kw name="Digitar o nome de produto &quot;WHEY 100% HD GOURMET BAUNILHA 900G&quot; no campo de pesquisa" owner="exercicio_de_fixacao_resources">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:45.894008" level="INFO">Typing text 'WHEY 100% HD GOURMET BAUNILHA 900G' into text field '//input[@id='twotabsearchtextbox']'.</msg>
+<msg time="2025-05-01T15:26:15.231597" level="INFO">Typing text 'WHEY 100% HD GOURMET BAUNILHA 900G' into text field '//input[@id='twotabsearchtextbox']'.</msg>
 <arg>locator=//input[@id='twotabsearchtextbox']</arg>
 <arg>text=WHEY 100% HD GOURMET BAUNILHA 900G</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-01T14:45:45.893307" elapsed="2.122269"/>
+<status status="PASS" start="2025-05-01T15:26:15.230665" elapsed="0.979168"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:45.892631" elapsed="2.123277"/>
+<status status="PASS" start="2025-05-01T15:26:15.229919" elapsed="0.980112"/>
 </kw>
 <kw name="Clicar no botão de pesquisa" owner="exercicio_de_fixacao_resources">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:48.017412" level="INFO">Clicking button '//input[@id='nav-search-submit-button']'.</msg>
+<msg time="2025-05-01T15:26:16.211771" level="INFO">Clicking button '//input[@id='nav-search-submit-button']'.</msg>
 <arg>locator=//input[@id='nav-search-submit-button']</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-01T14:45:48.016978" elapsed="2.657631"/>
+<status status="PASS" start="2025-05-01T15:26:16.211281" elapsed="3.525917"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:48.016379" elapsed="2.658385"/>
+<status status="PASS" start="2025-05-01T15:26:16.210626" elapsed="3.526832"/>
 </kw>
 <kw name="Verificar o resultado da pesquisa se está listando o produto &quot;WHEY 100% HD GOURMET BAUNILHA 900G&quot;" owner="exercicio_de_fixacao_resources">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:50.829275" level="INFO">Element '//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']' is displayed.</msg>
+<msg time="2025-05-01T15:26:20.065010" level="INFO">Element '//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']' is displayed.</msg>
 <arg>locator=//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2025-05-01T14:45:50.675734" elapsed="0.153667"/>
+<status status="PASS" start="2025-05-01T15:26:19.738668" elapsed="0.326508"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:50.675138" elapsed="0.154395"/>
+<status status="PASS" start="2025-05-01T15:26:19.738044" elapsed="0.327277"/>
 </kw>
 <kw name="Adicionar o produto &quot;WHEY 100% HD GOURMET BAUNILHA 900G&quot; no carrinho" owner="exercicio_de_fixacao_resources">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:50.953697" level="INFO">Element '//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']' is displayed.</msg>
+<msg time="2025-05-01T15:26:20.397912" level="INFO">Element '//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']' is displayed.</msg>
 <arg>locator=//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2025-05-01T14:45:50.830464" elapsed="0.123363"/>
+<status status="PASS" start="2025-05-01T15:26:20.066460" elapsed="0.331580"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:50.954314" level="INFO">Clicking element '//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']'.</msg>
+<msg time="2025-05-01T15:26:20.398485" level="INFO">Clicking element '//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']'.</msg>
 <arg>locator=//span[normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-01T14:45:50.954051" elapsed="3.277576"/>
+<status status="PASS" start="2025-05-01T15:26:20.398250" elapsed="3.429658"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:54.232572" level="INFO">Clicking button '//input[@id='add-to-cart-button']'.</msg>
+<msg time="2025-05-01T15:26:23.828389" level="INFO">Clicking button '//input[@id='add-to-cart-button']'.</msg>
 <arg>locator=//input[@id='add-to-cart-button']</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-01T14:45:54.232096" elapsed="2.361863"/>
+<status status="PASS" start="2025-05-01T15:26:23.828142" elapsed="2.604120"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:50.830033" elapsed="5.764138"/>
+<status status="PASS" start="2025-05-01T15:26:20.065855" elapsed="6.366663"/>
 </kw>
 <kw name="Verificar se o produto &quot;WHEY 100% HD GOURMET BAUNILHA 900G&quot; foi adicionado com sucesso" owner="exercicio_de_fixacao_resources">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:56.595600" level="INFO">Clicking element '//a[@href='/cart?ref_=sw_gtc']'.</msg>
+<msg time="2025-05-01T15:26:26.434209" level="INFO">Clicking element '//a[@href='/cart?ref_=sw_gtc']'.</msg>
 <arg>locator=//a[@href='/cart?ref_=sw_gtc']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-01T14:45:56.594981" elapsed="1.412658"/>
+<status status="PASS" start="2025-05-01T15:26:26.433847" elapsed="1.485498"/>
 </kw>
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:58.087522" level="INFO">Element '//span[@class='a-truncate-cut'][normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']' is displayed.</msg>
+<msg time="2025-05-01T15:26:27.957212" level="INFO">Element '//span[@class='a-truncate-cut'][normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']' is displayed.</msg>
 <arg>locator=//span[@class='a-truncate-cut'][normalize-space()='WHEY 100% HD GOURMET BAUNILHA 900G']</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2025-05-01T14:45:58.007972" elapsed="0.079715"/>
+<status status="PASS" start="2025-05-01T15:26:27.919668" elapsed="0.037668"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:56.594575" elapsed="1.493379"/>
+<status status="PASS" start="2025-05-01T15:26:26.433241" elapsed="1.524228"/>
 </kw>
 <kw name="Remover o produto &quot;WHEY 100% HD GOURMET BAUNILHA 900G&quot; do carrinho" owner="exercicio_de_fixacao_resources">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:58.089321" level="INFO">Clicking element 'css=input[value='Excluir'][aria-label='Excluir WHEY 100% HD GOURMET BAUNILHA 900G']'.</msg>
+<msg time="2025-05-01T15:26:27.958774" level="INFO">Clicking element 'css=input[value='Excluir'][aria-label='Excluir WHEY 100% HD GOURMET BAUNILHA 900G']'.</msg>
 <arg>css=input[value='Excluir'][aria-label='Excluir WHEY 100% HD GOURMET BAUNILHA 900G']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-01T14:45:58.089080" elapsed="0.234533"/>
+<status status="PASS" start="2025-05-01T15:26:27.958453" elapsed="0.210436"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:58.088576" elapsed="0.235322"/>
+<status status="PASS" start="2025-05-01T15:26:27.957960" elapsed="0.211180"/>
 </kw>
 <kw name="Verificar se o carrinho fica vazio" owner="exercicio_de_fixacao_resources">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>id=sc-subtotal-label-activecart</arg>
 <arg>timeout=10</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-05-01T14:45:58.326199" elapsed="0.285577"/>
+<status status="PASS" start="2025-05-01T15:26:28.170473" elapsed="0.326473"/>
 </kw>
 <kw name="Element Text Should Be" owner="SeleniumLibrary">
-<msg time="2025-05-01T14:45:58.612510" level="INFO">Verifying element 'id=sc-subtotal-label-activecart' contains exact text 'Subtotal (0 produtos):'.</msg>
+<msg time="2025-05-01T15:26:28.498345" level="INFO">Verifying element 'id=sc-subtotal-label-activecart' contains exact text 'Subtotal (0 produtos):'.</msg>
 <arg>id=sc-subtotal-label-activecart</arg>
 <arg>Subtotal (0 produtos):</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<status status="PASS" start="2025-05-01T14:45:58.612129" elapsed="0.026469"/>
+<status status="PASS" start="2025-05-01T15:26:28.497796" elapsed="0.044587"/>
 </kw>
-<status status="PASS" start="2025-05-01T14:45:58.324864" elapsed="0.313889"/>
+<status status="PASS" start="2025-05-01T15:26:28.169792" elapsed="0.372860"/>
 </kw>
 <doc>Esse teste verifica a remoção de um produto no carrinho de compras</doc>
 <tag>remover_carrinho</tag>
-<status status="PASS" start="2025-05-01T14:45:27.965521" elapsed="30.673631"/>
+<status status="PASS" start="2025-05-01T15:25:56.866167" elapsed="31.676930"/>
 </test>
 <doc>Exercício de fixação</doc>
-<status status="PASS" start="2025-05-01T14:45:27.624372" elapsed="31.015774"/>
+<status status="PASS" start="2025-05-01T15:25:56.442909" elapsed="32.101568"/>
 </suite>
 <statistics>
 <total>
