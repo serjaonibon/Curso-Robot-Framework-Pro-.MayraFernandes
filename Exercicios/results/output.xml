@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-07T21:24:59.559134" rpa="false" schemaversion="5">
+<suite id="s1" name="Exercicio dicionario" source="C:\CursoUdemy\RobotFramework\WebTesting\Exercicios\Exercicio_dicionario.robot">
+<test id="s1-t1" name="Caso de teste: Meses do ano de 2025" line="22">
+<kw name="Meses do ano de 2025">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.624640" level="INFO">O mês de JANEIRO possui 31 dias.</msg>
+<arg>O mês de JANEIRO possui ${DIAS_DO_MES}[janeiro] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.624350" elapsed="0.000448"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.625749" level="INFO">O mês de FEVEREIRO possui 28 dias.</msg>
+<arg>O mês de FEVEREIRO possui ${DIAS_DO_MES}[fevereiro] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.625122" elapsed="0.000701"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.626126" level="INFO">O mês de MARÇO possui 31 dias.</msg>
+<arg>O mês de MARÇO possui ${DIAS_DO_MES}[março] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.625960" elapsed="0.000232"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.626470" level="INFO">O mês de ABRIL possui 30 dias.</msg>
+<arg>O mês de ABRIL possui ${DIAS_DO_MES}[abril] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.626309" elapsed="0.000219"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.626820" level="INFO">O mês de MAIO possui 31 dias.</msg>
+<arg>O mês de MAIO possui ${DIAS_DO_MES}[maio] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.626661" elapsed="0.000218"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.627159" level="INFO">O mês de JUNHO possui 30 dias.</msg>
+<arg>O mês de JUNHO possui ${DIAS_DO_MES}[junho] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.626994" elapsed="0.000223"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.627485" level="INFO">O mês de JULHO possui 31 dias.</msg>
+<arg>O mês de JULHO possui ${DIAS_DO_MES}[julho] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.627331" elapsed="0.000210"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.627829" level="INFO">O mês de AGOSTO possui 31 dias.</msg>
+<arg>O mês de AGOSTO possui ${DIAS_DO_MES}[agosto] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.627667" elapsed="0.000229"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.628171" level="INFO">O mês de SETEMBRO possui 30 dias.</msg>
+<arg>O mês de SETEMBRO possui ${DIAS_DO_MES}[setembro] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.628010" elapsed="0.000218"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.628492" level="INFO">O mês de OUTUBRO possui 31 dias.</msg>
+<arg>O mês de OUTUBRO possui ${DIAS_DO_MES}[outubro] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.628338" elapsed="0.000218"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.628849" level="INFO">O mês de NOVEMBRO possui 30 dias.</msg>
+<arg>O mês de NOVEMBRO possui ${DIAS_DO_MES}[novembro] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.628678" elapsed="0.000225"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-07T21:24:59.629163" level="INFO">O mês de DEZEMBRO possui 31 dias.</msg>
+<arg>O mês de DEZEMBRO possui ${DIAS_DO_MES}[dezembro] dias.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-07T21:24:59.629007" elapsed="0.000212"/>
+</kw>
+<status status="PASS" start="2025-05-07T21:24:59.623726" elapsed="0.005581"/>
+</kw>
+<status status="PASS" start="2025-05-07T21:24:59.622685" elapsed="0.006991"/>
+</test>
+<doc>Tarefa de dicionario</doc>
+<status status="PASS" start="2025-05-07T21:24:59.562543" elapsed="0.068190"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Exercicio dicionario" id="s1" pass="1" fail="0" skip="0">Exercicio dicionario</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
