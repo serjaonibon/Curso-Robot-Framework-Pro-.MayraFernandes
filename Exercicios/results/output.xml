@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-08T22:12:49.752200" rpa="false" schemaversion="5">
-<suite id="s1" name="Email Generator" source="C:\CursoUdemy\RobotFramework\WebTesting\Exercicios\email_generator.robot">
-<test id="s1-t1" name="Imprimindo um e-mail customizado e aleatório" line="8">
-<kw name="Criar e-mail customizado e aleatório">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-20T17:20:23.848719" rpa="false" schemaversion="5">
+<suite id="s1" name="Exercicio Tarefa 05 Serjao" source="C:\CursoUdemy\RobotFramework\WebTesting\Exercicios\exercicio_tarefa_05_serjao.robot">
+<test id="s1-t1" name="Criar um e-mail customizado e aleatório" line="10">
+<kw name="Criação de e-mail">
 <kw name="Generate Random String" owner="String">
-<msg time="2025-05-08T22:12:49.853368" level="INFO">${ALEATORIA} = IIIw6Lwb</msg>
+<msg time="2025-05-20T17:20:25.230123" level="INFO">${ALEATORIA} = 4qs7S2Fu</msg>
 <var>${ALEATORIA}</var>
 <doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<status status="PASS" start="2025-05-08T22:12:49.852906" elapsed="0.000557"/>
+<status status="PASS" start="2025-05-20T17:20:25.229892" elapsed="0.000281"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-05-08T22:12:49.854305" level="INFO">${EMAIL_FINAL} = MayFernandesIIIw6Lwb@testerobot.com</msg>
-<var>${EMAIL_FINAL}</var>
-<arg>${NOME}${SOBRENOME}${ALEATORIA}@testerobot.com</arg>
+<msg time="2025-05-20T17:20:25.230612" level="INFO">${EMAIL_DEFINITIVO} = SergioNibon4qs7S2Fu@cursorobot.mayra.com.br</msg>
+<var>${EMAIL_DEFINITIVO}</var>
+<arg>${NOME}${SOBRENOME}${ALEATORIA}@cursorobot.mayra.com.br</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-05-08T22:12:49.853783" elapsed="0.000591"/>
+<status status="PASS" start="2025-05-20T17:20:25.230334" elapsed="0.000317"/>
 </kw>
 <return>
-<value>${EMAIL_FINAL}</value>
-<status status="PASS" start="2025-05-08T22:12:49.854511" elapsed="0.000107"/>
+<value>${EMAIL_DEFINITIVO}</value>
+<status status="PASS" start="2025-05-20T17:20:25.230736" elapsed="0.000056"/>
 </return>
-<msg time="2025-05-08T22:12:49.854901" level="INFO">${EMAIL_CRIADO} = MayFernandesIIIw6Lwb@testerobot.com</msg>
-<var>${EMAIL_CRIADO}</var>
+<msg time="2025-05-20T17:20:25.230989" level="INFO">${EMAIL_GERADO} = SergioNibon4qs7S2Fu@cursorobot.mayra.com.br</msg>
+<var>${EMAIL_GERADO}</var>
 <arg>${PESSOA.nome}</arg>
 <arg>${PESSOA.sobrenome}</arg>
-<status status="PASS" start="2025-05-08T22:12:49.849911" elapsed="0.005046"/>
+<status status="PASS" start="2025-05-20T17:20:25.227958" elapsed="0.003077"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
-<arg>${EMAIL_CRIADO}</arg>
+<arg>${EMAIL_GERADO}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-05-08T22:12:49.858928" elapsed="0.002224"/>
+<status status="PASS" start="2025-05-20T17:20:25.231330" elapsed="0.000379"/>
 </kw>
-<status status="PASS" start="2025-05-08T22:12:49.848216" elapsed="0.015661"/>
+<status status="PASS" start="2025-05-20T17:20:25.226898" elapsed="0.005149"/>
 </test>
-<status status="PASS" start="2025-05-08T22:12:49.755462" elapsed="0.110013"/>
+<status status="PASS" start="2025-05-20T17:20:23.851809" elapsed="1.381215"/>
 </suite>
 <statistics>
 <total>
@@ -42,10 +42,10 @@
 <tag>
 </tag>
 <suite>
-<stat name="Email Generator" id="s1" pass="1" fail="0" skip="0">Email Generator</stat>
+<stat name="Exercicio Tarefa 05 Serjao" id="s1" pass="1" fail="0" skip="0">Exercicio Tarefa 05 Serjao</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-05-08T22:12:49.744654" level="WARN">Error in file 'C:\CursoUdemy\RobotFramework\WebTesting\Exercicios\email_generator.robot' on line 18: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-05-20T17:20:23.836961" level="WARN">Error in file 'C:\CursoUdemy\RobotFramework\WebTesting\Exercicios\exercicio_tarefa_05_serjao.robot' on line 21: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>
