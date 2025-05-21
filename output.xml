@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-21T19:37:48.907967" rpa="false" schemaversion="5">
+<suite id="s1" name="UsandoWhile" source="c:\CursoUdemy\RobotFramework\WebTesting\ExemplosEstruturas\UsandoWhile.robot">
+<test id="s1-t1" name="Caso de teste exemplo de WHILE" line="17">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:48.985781" elapsed="0.001220"/>
+</kw>
+<kw name="Usando WHILE para loop">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:48.989239" elapsed="0.001179"/>
+</kw>
+<while condition="${STATUS} &lt;= 5">
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-21T19:37:48.993926" level="INFO">Executando esse bloco enquanto o valor da variável STATUS [1] for menor ou igual a 5!</msg>
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-21T19:37:48.992711" elapsed="0.004711"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:48.997950" elapsed="0.001695"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.001666" level="INFO">${STATUS} = 2</msg>
+<var>${STATUS}</var>
+<arg>${STATUS+1}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.000329" elapsed="0.001623"/>
+</kw>
+<status status="PASS" start="2025-05-21T19:37:48.991238" elapsed="0.010939"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.003229" level="INFO">Executando esse bloco enquanto o valor da variável STATUS [2] for menor ou igual a 5!</msg>
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.002820" elapsed="0.000727"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.004074" elapsed="0.002743"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.009889" level="INFO">${STATUS} = 3</msg>
+<var>${STATUS}</var>
+<arg>${STATUS+1}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.007738" elapsed="0.002675"/>
+</kw>
+<status status="PASS" start="2025-05-21T19:37:49.002348" elapsed="0.008476"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.012869" level="INFO">Executando esse bloco enquanto o valor da variável STATUS [3] for menor ou igual a 5!</msg>
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.012061" elapsed="0.001353"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.013997" elapsed="0.001235"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.018276" level="INFO">${STATUS} = 4</msg>
+<var>${STATUS}</var>
+<arg>${STATUS+1}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.015944" elapsed="0.002849"/>
+</kw>
+<status status="PASS" start="2025-05-21T19:37:49.011142" elapsed="0.008334"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.021624" level="INFO">Executando esse bloco enquanto o valor da variável STATUS [4] for menor ou igual a 5!</msg>
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.020846" elapsed="0.001923"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.023620" elapsed="0.001424"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.026978" level="INFO">${STATUS} = 5</msg>
+<var>${STATUS}</var>
+<arg>${STATUS+1}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.025714" elapsed="0.001594"/>
+</kw>
+<status status="PASS" start="2025-05-21T19:37:49.019783" elapsed="0.007913"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.029246" level="INFO">Executando esse bloco enquanto o valor da variável STATUS [5] for menor ou igual a 5!</msg>
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.028538" elapsed="0.001195"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Executando esse bloco enquanto o valor da variável STATUS [${STATUS}] for menor ou igual a 5!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.030419" elapsed="0.002324"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-05-21T19:37:49.035556" level="INFO">${STATUS} = 6</msg>
+<var>${STATUS}</var>
+<arg>${STATUS+1}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.033509" elapsed="0.002706"/>
+</kw>
+<status status="PASS" start="2025-05-21T19:37:49.027933" elapsed="0.008682"/>
+</iter>
+<status status="PASS" start="2025-05-21T19:37:48.991208" elapsed="0.046553"/>
+</while>
+<status status="PASS" start="2025-05-21T19:37:48.988243" elapsed="0.050348"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-21T19:37:49.039945" elapsed="0.001885"/>
+</kw>
+<status status="PASS" start="2025-05-21T19:37:48.983841" elapsed="0.059216"/>
+</test>
+<doc>Suíte para exemplificar o uso de LOOPS nos testes
+Os LOOPS devem ser pouco utilizados, mas tem hora que não tem jeito
+e precisamos dele mesmo, então vamos ver como é!
+LOOPS: use com moderação!
+Infelizmente o Loop FOR ainda não tem uma estrutura keyword-driven
+Mas o criador do Robot já disse que estão estudando uma solução!</doc>
+<status status="PASS" start="2025-05-21T19:37:48.923796" elapsed="0.124750"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="UsandoWhile" id="s1" pass="1" fail="0" skip="0">UsandoWhile</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-21T19:37:48.857465" level="WARN">Error in file 'c:\CursoUdemy\RobotFramework\WebTesting\ExemplosEstruturas\UsandoWhile.robot' on line 16: Singular section headers like '*** Test Case ***' are deprecated. Use plural format like '*** Test Cases ***' instead.</msg>
+</errors>
+</robot>

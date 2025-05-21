@@ -1,74 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-13T19:41:36.194446" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-05-20T16:04:50.500374" rpa="false" schemaversion="5">
 <suite id="s1" name="ExemplosArgumentos" source="C:\CursoUdemy\RobotFramework\WebTesting\VariaveisEscoposArgumentos\ExemplosArgumentos.robot">
 <test id="s1-t1" name="Caso de teste de exemplo 01" line="8">
 <kw name="Uma keyword qualquer 01">
 <kw name="Uma subkeyword com argumentos">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-05-13T19:41:36.252897" level="INFO">Nome Usuário: Bruno Silva</msg>
+<msg time="2025-05-20T16:04:50.573238" level="INFO">Nome Usuário: Sergio Meireles Nibon Junior</msg>
 <arg>Nome Usuário: ${NOME_USUARIO}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-05-13T19:41:36.252455" elapsed="0.000525"/>
+<status status="PASS" start="2025-05-20T16:04:50.572722" elapsed="0.000615"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-05-13T19:41:36.253328" level="INFO">Email: bruno_silva@teste.com.br</msg>
+<msg time="2025-05-20T16:04:50.573720" level="INFO">Email: snibonjr@gmail.com</msg>
 <arg>Email: ${EMAIL_USUARIO}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-05-13T19:41:36.253146" elapsed="0.000249"/>
+<status status="PASS" start="2025-05-20T16:04:50.573534" elapsed="0.000253"/>
 </kw>
-<arg>Bruno Silva</arg>
-<arg>bruno_silva@teste.com.br</arg>
-<status status="PASS" start="2025-05-13T19:41:36.251856" elapsed="0.001630"/>
+<arg>Sergio Meireles Nibon Junior</arg>
+<arg>snibonjr@gmail.com</arg>
+<status status="PASS" start="2025-05-20T16:04:50.572141" elapsed="0.001776"/>
 </kw>
 <kw name="Uma subkeyword com argumentos">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-05-13T19:41:36.254897" level="INFO">Nome Usuário: May Fernandes</msg>
+<msg time="2025-05-20T16:04:50.574591" level="INFO">Nome Usuário: Sergio Nibon</msg>
 <arg>Nome Usuário: ${NOME_USUARIO}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-05-13T19:41:36.254746" elapsed="0.000212"/>
+<status status="PASS" start="2025-05-20T16:04:50.574422" elapsed="0.000235"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-05-13T19:41:36.255222" level="INFO">Email: mayfernandes@exemplo.com.br</msg>
+<msg time="2025-05-20T16:04:50.574965" level="INFO">Email: snibon@yahoo.com</msg>
 <arg>Email: ${EMAIL_USUARIO}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-05-13T19:41:36.255075" elapsed="0.000203"/>
+<status status="PASS" start="2025-05-20T16:04:50.574777" elapsed="0.000256"/>
+</kw>
+<arg>Sergio Nibon</arg>
+<arg>snibon@yahoo.com</arg>
+<status status="PASS" start="2025-05-20T16:04:50.574093" elapsed="0.001022"/>
+</kw>
+<kw name="Uma subkeyword com argumentos">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-20T16:04:50.575786" level="INFO">Nome Usuário: Bruno Silva</msg>
+<arg>Nome Usuário: ${NOME_USUARIO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-20T16:04:50.575623" elapsed="0.000246"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-20T16:04:50.576178" level="INFO">Email: bruno_silva@teste.com.br</msg>
+<arg>Email: ${EMAIL_USUARIO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-20T16:04:50.576017" elapsed="0.000220"/>
+</kw>
+<arg>Bruno Silva</arg>
+<arg>bruno_silva@teste.com.br</arg>
+<status status="PASS" start="2025-05-20T16:04:50.575281" elapsed="0.001036"/>
+</kw>
+<kw name="Uma subkeyword com argumentos">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-20T16:04:50.578363" level="INFO">Nome Usuário: May Fernandes</msg>
+<arg>Nome Usuário: ${NOME_USUARIO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-20T16:04:50.577779" elapsed="0.000722"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-20T16:04:50.579144" level="INFO">Email: mayfernandes@exemplo.com.br</msg>
+<arg>Email: ${EMAIL_USUARIO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-20T16:04:50.578783" elapsed="0.000487"/>
 </kw>
 <arg>${PESSOA.nome}</arg>
 <arg>${PESSOA.email}</arg>
-<status status="PASS" start="2025-05-13T19:41:36.253635" elapsed="0.001722"/>
+<status status="PASS" start="2025-05-20T16:04:50.576492" elapsed="0.002944"/>
 </kw>
 <kw name="Uma subkeyword com retorno">
 <kw name="Set Variable If" owner="BuiltIn">
-<msg time="2025-05-13T19:41:36.257212" level="INFO">${MENSAGEM} = OK! Usuário May Fernandes é maior de idade!</msg>
+<msg time="2025-05-20T16:04:50.581671" level="INFO">${MENSAGEM} = Não autorizado! O usuário May Fernandes é menor de idade!</msg>
 <var>${MENSAGEM}</var>
 <arg>${IDADE_USUARIO}&lt;18</arg>
 <arg>Não autorizado! O usuário ${NOME_USUARIO} é menor de idade!</arg>
 <arg>OK! Usuário ${NOME_USUARIO} é maior de idade!</arg>
 <doc>Sets variable based on the given condition.</doc>
-<status status="PASS" start="2025-05-13T19:41:36.256843" elapsed="0.000426"/>
+<status status="PASS" start="2025-05-20T16:04:50.581309" elapsed="0.000412"/>
 </kw>
 <return>
 <value>${MENSAGEM}</value>
-<status status="PASS" start="2025-05-13T19:41:36.257353" elapsed="0.000060"/>
+<status status="PASS" start="2025-05-20T16:04:50.581844" elapsed="0.000081"/>
 </return>
-<msg time="2025-05-13T19:41:36.257585" level="INFO">${MENSAGEM_ALERTA} = OK! Usuário May Fernandes é maior de idade!</msg>
+<msg time="2025-05-20T16:04:50.582127" level="INFO">${MENSAGEM_ALERTA} = Não autorizado! O usuário May Fernandes é menor de idade!</msg>
 <var>${MENSAGEM_ALERTA}</var>
 <arg>${PESSOA.nome}</arg>
 <arg>${PESSOA.idade}</arg>
-<status status="PASS" start="2025-05-13T19:41:36.255514" elapsed="0.002107"/>
+<status status="PASS" start="2025-05-20T16:04:50.579841" elapsed="0.002327"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-05-13T19:41:36.257894" level="INFO">OK! Usuário May Fernandes é maior de idade!</msg>
+<msg time="2025-05-20T16:04:50.582497" level="INFO">Não autorizado! O usuário May Fernandes é menor de idade!</msg>
 <arg>${MENSAGEM_ALERTA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-05-13T19:41:36.257748" elapsed="0.000204"/>
+<status status="PASS" start="2025-05-20T16:04:50.582322" elapsed="0.000242"/>
 </kw>
-<status status="PASS" start="2025-05-13T19:41:36.251426" elapsed="0.006616"/>
+<status status="PASS" start="2025-05-20T16:04:50.571658" elapsed="0.010987"/>
 </kw>
-<status status="PASS" start="2025-05-13T19:41:36.250480" elapsed="0.007842"/>
+<status status="PASS" start="2025-05-20T16:04:50.570309" elapsed="0.012682"/>
 </test>
 <doc>Exemplo de uso de variáveis como argumentos em Keywords</doc>
-<status status="PASS" start="2025-05-13T19:41:36.197672" elapsed="0.061487"/>
+<status status="PASS" start="2025-05-20T16:04:50.503989" elapsed="0.080324"/>
 </suite>
 <statistics>
 <total>
@@ -81,7 +115,7 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2025-05-13T19:41:36.186925" level="WARN">Error in file 'C:\CursoUdemy\RobotFramework\WebTesting\VariaveisEscoposArgumentos\ExemplosArgumentos.robot' on line 4: Singular section headers like '*** Variable ***' are deprecated. Use plural format like '*** Variables ***' instead.</msg>
-<msg time="2025-05-13T19:41:36.187986" level="WARN">Error in file 'C:\CursoUdemy\RobotFramework\WebTesting\VariaveisEscoposArgumentos\ExemplosArgumentos.robot' on line 26: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-05-20T16:04:50.488648" level="WARN">Error in file 'C:\CursoUdemy\RobotFramework\WebTesting\VariaveisEscoposArgumentos\ExemplosArgumentos.robot' on line 4: Singular section headers like '*** Variable ***' are deprecated. Use plural format like '*** Variables ***' instead.</msg>
+<msg time="2025-05-20T16:04:50.490073" level="WARN">Error in file 'C:\CursoUdemy\RobotFramework\WebTesting\VariaveisEscoposArgumentos\ExemplosArgumentos.robot' on line 29: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>
